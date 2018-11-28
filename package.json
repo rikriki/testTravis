@@ -14,7 +14,7 @@
   },
   "access_token": "47f3080a0f3156e3d8c3e64c980f1e55aba85e4a",
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js"
+    "test": "./node_modules/mocha/bin/mocha test.js"
   },
   "dependencies": {
     "lodash": "^4.17.11"
