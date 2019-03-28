@@ -7,9 +7,9 @@ env:
 - secure: "TsYgfDTXM9DhteoxruftAIm9qbcVFTfBbPmi/Mv9lGkDKZ/b4pputXgbfy2On7dsu5s9Bio/P4Nri61sgVHZm6AJIsNWf2D6Ggiz94oddr0r+7dPp9yqTziPQAKNmMSzCtLff9Dl4BSOiasy/aQy5M+NrD6kXex0xjZyTIEndzk="
 notifications:
   webhooks:
- #   urls:
-    - https://api.datablocks.net:3028/travis_notifications
-      on_start: change   # default: never
+    urls:
+      - https://api.datablocks.net:3028/travis_notifications
+    on_start: always
 #     on_success: always # default: always
 #     on_failure: always # default: always      
 #     on_cancel: always # default: always
