@@ -8,8 +8,8 @@ env:
 notifications:
   webhooks:
     - https://api.datablocks.net:3028/travis_notifications
+      on_start: change   # default: never
 #     on_success: always # default: always
-#     on_failure: always # default: always
-      on_start: always   # default: never
+#     on_failure: always # default: always      
 #     on_cancel: always # default: always
 #     on_error: always # default: always
